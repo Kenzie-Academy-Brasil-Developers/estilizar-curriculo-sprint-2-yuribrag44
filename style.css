@@ -14,6 +14,11 @@
 
 #contactDetails {
 	float: right;
+	color: #181818;
+}
+
+#mainArea {
+	border-top: 2px solid #cf8a05;
 }
 
 .sectionTitle {
@@ -24,4 +29,26 @@
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	border-bottom: 1px solid #dedede;
+}
+
+body, html {
+	font-family: 'Lato', sans-serif;
+	background-color: #f3f3f3;
+}
+
+h1, h2 {
+	font-family: 'Rokkitt', serif;
+	color: #444444;
+}
+
+.corGold {
+	color: #cf8a05;
+}
+
+.keySkills {
+	list-style: none;
+	position: relative;
+	flex-direction: row;
+	column-count: 3;
 }
